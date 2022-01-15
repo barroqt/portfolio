@@ -1,21 +1,26 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Thomas Barroqueiro <br />
+          Back end developer
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          Initially full-stack javascript developer, with a preference for back end. <br />
+          Self taught in Rust and Solidity <br />
+          I am now Looking for a company working with blockchain technologies.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <AiOutlineMail size="3rem" /> 
+        <SectionText>barroqt@gmail.com</SectionText>
+        <AiOutlinePhone size="3rem" /> 
+        <SectionText>+33 6 43 02 16 09</SectionText>      
       </LeftSection>
     </Section>
   </>
