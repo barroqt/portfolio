@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiRust, DiScrum } from 'react-icons/di';
+import { AiFillAudio } from 'react-icons/ai';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,20 +8,15 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
-    </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiRust size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Programming languages</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+          Javascript, Rust, Solidity, C, C++, Python, Ruby
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,22 +25,35 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+          AWS, Node.js, React.js, Next.js, Postgresql, Docker, Jenkins, Redis, GraphQL, Ruby on Rails, Tensorflow, Keras
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiScrum size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Methodology</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Scrum <br />
+            TDD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiFillAudio size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Spoken languages</ListTitle>
+          <ListParagraph>
+            French (native) <br />
+            English (fluent) <br />
+            Mandaring Chinese (advanced) <br />
+            Portuguese (advanced)
           </ListParagraph>
         </ListContainer>
       </ListItem>

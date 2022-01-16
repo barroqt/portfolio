@@ -13,9 +13,9 @@ const Hero = (props) => (
           Back end developer
         </SectionTitle>
         <SectionText>
-          Initially full-stack javascript developer, with a preference for back end. <br />
-          Self taught in Rust and Solidity <br />
-          I am now Looking for a company working with blockchain technologies.
+          Initially full-stack developer, I switched my focus to web3 and smart contracts.<br />
+          Self taught in Rust and Solidity, I also learned a lot about the blockchain ecosystem as a whole.<br />
+          I am now looking for a company working in this field.
         </SectionText>
         <AiOutlineMail size="3rem" /> 
         <SectionText>barroqt@gmail.com</SectionText>
