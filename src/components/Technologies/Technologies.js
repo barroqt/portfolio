@@ -52,7 +52,7 @@ const Technologies = () =>  (
           <ListParagraph>
             French (native) <br />
             English (fluent) <br />
-            Mandaring Chinese (advanced) <br />
+            Mandarin Chinese (advanced) <br />
             Portuguese (advanced)
           </ListParagraph>
         </ListContainer>
