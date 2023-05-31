@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { LeftSection } from './HeroStyles';
-import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { LeftSection } from "./HeroStyles";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Hero = (props) => (
   <>
@@ -13,14 +17,21 @@ const Hero = (props) => (
           Back end developer
         </SectionTitle>
         <SectionText>
-          Initially full-stack developer, I switched my focus to web3 and smart contracts.<br />
-          Self taught in Rust and Solidity, I also learned a lot about the blockchain ecosystem as a whole.<br />
-          I am now looking for a company working in this field.
+          My professional experience spans across frontend, backend, and
+          blockchain development.
+          <br />
+          Having taught myself Rust and Solidity, my passion is driven by a
+          thirst for constant learning.
+          <br />
+          In my view, the best way to grow and improve is to immerse oneself in
+          a community of knowledgeable and skilled individuals.
+          <br />I am actively seeking a new project to contribute my skills and
+          passion to.
         </SectionText>
-        <AiOutlineMail size="3rem" /> 
+        <AiOutlineMail size="3rem" />
         <SectionText>barroqt@gmail.com</SectionText>
-        <AiOutlinePhone size="3rem" /> 
-        <SectionText>+33 6 43 02 16 09</SectionText>      
+        <AiOutlinePhone size="3rem" />
+        <SectionText>+33 6 43 02 16 09</SectionText>
       </LeftSection>
     </Section>
   </>
