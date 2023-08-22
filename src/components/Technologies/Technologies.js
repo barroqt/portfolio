@@ -1,10 +1,21 @@
-import React from 'react';
-import { DiFirebase, DiRust, DiScrum } from 'react-icons/di';
-import { AiFillAudio } from 'react-icons/ai';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiRust, DiScrum } from "react-icons/di";
+import { AiFillAudio } from "react-icons/ai";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
@@ -16,7 +27,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Programming languages</ListTitle>
           <ListParagraph>
-          Javascript, Rust, Solidity, C, C++, Python, Ruby
+            Typescrit, Javascript, Rust, Solidity, C, C++, Python, Ruby
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,7 +38,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
-          AWS, Node.js, React.js, Next.js, Postgresql, Docker, Jenkins, Redis, GraphQL, Ruby on Rails, Tensorflow, Keras
+            AWS, Node.js, React.js, Next.js, Postgresql, Docker, Jenkins, Redis,
+            GraphQL, Ruby on Rails, Tensorflow, Keras
           </ListParagraph>
         </ListContainer>
       </ListItem>
